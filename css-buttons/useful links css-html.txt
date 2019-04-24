@@ -1,0 +1,6 @@
+https://tympanus.net/codrops/2012/01/11/css-buttons-with-pseudo-elements/
+https://stackoverflow.com/questions/10976700/how-to-set-the-height-of-an-button-input-element-on-webkit-browsers
+https://stackoverflow.com/questions/3331353/transitions-on-the-display-property
+https://stackoverflow.com/questions/18339549/floating-div-over-an-image/18339713
+https://stackoverflow.com/questions/4218204/position-a-div-on-top-of-an-image
+http://cssmenumaker.com/blog/stacking-elements-with-z-index/
