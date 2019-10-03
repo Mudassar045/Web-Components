@@ -10,6 +10,7 @@ body {
     padding: 0;
     width: 100%;
     table-layout: fixed;
+    border-radius: 2%;
   }
   
   table caption {
@@ -33,6 +34,8 @@ body {
     font-size: .85em;
     letter-spacing: .1em;
     text-transform: uppercase;
+    background-color: black;
+    color: white;
   }
   
   @media screen and (max-width: 600px) {
@@ -83,3 +86,8 @@ body {
       border-bottom: 0;
     }
   }
+
+  /* Zebra striping */
+tr:nth-of-type(even) { 
+    background: #eee; 
+}
