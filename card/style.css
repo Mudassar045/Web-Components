@@ -1,0 +1,59 @@
+body {
+    background-color: #2d3436;
+    margin: 10%;
+}
+.student-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 85.6mm;
+    height: 54mm;
+    /* standard credit card size */
+    /* https://helpdesk.rs2tech.com/kb/article/317-id-card-sizes/ */
+}
+
+.header h2 {
+    padding: 5px;
+    margin: 0px;
+}
+
+.school-logo {
+    border-radius: 2px;
+    width: 64px;
+    height: 64px;
+}
+
+.student-profile {
+    width: 110px;
+    height: 110px;
+}
+.student-info {
+    padding: 10px
+}
+.student-info h4 {
+    font-weight: bold;
+    padding: 2px;
+    margin: 0px;
+}
+.student-info span {
+    font-weight: normal;
+}
+
+.signature {
+    border-top: 1px solid;
+    font-size: 0.7rem;
+    width: fit-content;
+}
+.valid-date {
+    font-size: 0.8rem;
+    text-align: right;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}
