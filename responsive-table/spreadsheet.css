@@ -1,0 +1,62 @@
+body {
+	display: flex;
+	font-family: -apple-system;
+	font-size: 90%;
+	color: #333;
+	justify-content: center;
+}
+
+.table-wrapper {
+	max-width: 80%;
+	overflow: scroll;
+}
+
+table {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+
+td, th {
+	white-space: nowrap;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+th {
+	background-color: #eee;
+	position: sticky;
+	top: -1px;
+	z-index: 2;
+	padding: 20px 0px;
+}
+
+/* The first cell that lives in the top left of our spreadsheet */
+th:first-of-type {
+	left: 0;
+	z-index: 3;
+}
+ /* The first column that we want to stick to the left */
+tbody tr td:first-of-type {
+	background-color: #eee;
+	position: sticky;
+	left: -1px;
+	z-index: 1;
+	padding: 20px;
+}
+
+tbody tr td input {
+	width: 80px;
+	border-radius: 2px;
+	font-size: 0.95rem;
+	background-color: #fff;
+	border-color: #949191;
+	border: 1px solid #949191;
+	align-items: center;
+	box-shadow: none;
+	display: inline-block;
+	height: 1.0em;
+	justify-content: flex-start;
+	line-height: 1.0;
+	padding: calc(.5em - 1px);
+	vertical-align: middle;
+}
